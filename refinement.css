@@ -308,3 +308,19 @@
   #destaques .highlights-restored > article:nth-child(3),
   #destaques .highlights-restored > article:nth-child(4){grid-column:auto}
 }
+
+/* Preloader — brand-correct dark opening */
+.preloader{
+  background-color:#050607;
+  background-image:
+    radial-gradient(ellipse at 50% 55%,rgba(22,217,230,.105) 0%,transparent 49%),
+    linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px),
+    linear-gradient(0deg,rgba(255,255,255,.025) 1px,transparent 1px);
+  background-size:auto,56px 56px,56px 56px;
+  color:#f7fafb;
+}
+.preloader strong{color:#f7fafb}
+.preloader strong span{color:var(--cyan)}
+.preloader .pre-mini{color:#bfcdd1}
+.preloader .pre-bar{background:rgba(255,255,255,.12)}
+.preloader .pre-bar>span{background:var(--cyan)}
